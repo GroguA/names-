@@ -28,6 +28,7 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func resultButtonTapped() {
+        let number = 4
         let doOnFailureFunc: () -> Void = {
             self.showAlert(
                 title: "Names are missing",
